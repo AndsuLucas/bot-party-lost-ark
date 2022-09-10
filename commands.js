@@ -1,10 +1,9 @@
 const { SlashCommandBuilder, Routes } = require('discord.js');
 const { REST } = require('@discordjs/rest');
 const { clientId, guildId, token } = require('./config.json');
-const { clear } = require('console');
 
 const commands = [
-	new SlashCommandBuilder().setName('add').setDescription('Replies with pong!'),
+	new SlashCommandBuilder().setName('inicia-pt').setDescription('Replies with pong!'),
 	new SlashCommandBuilder().setName('get').setDescription('Replies with server info!'),
 	new SlashCommandBuilder().setName('user').setDescription('Replies with user info!'),
 ]

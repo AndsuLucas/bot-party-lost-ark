@@ -1,7 +1,6 @@
 {
   "name": "jsbot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "@discordjs/rest": "^1.1.0",
@@ -12,5 +11,17 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndsuLucas/btjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndsuLucas/btjs/issues"
+  },
+  "homepage": "https://github.com/AndsuLucas/btjs#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^18.7.16"
+  }
 }
